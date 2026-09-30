@@ -5,4 +5,4 @@ for (let current = element; current; current = current.parentElement) {
   level++;
 }
 
-console.log(`The level of the element is: ${level}`);
+alert(`The level of the element is: ${level}`);
